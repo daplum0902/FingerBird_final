@@ -1,0 +1,180 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp">
+
+<RelativeLayout
+        android:id="@+id/top_list"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/journal_detail_title">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/demo_user_g"
+            android:layout_marginStart="16dp" />
+
+        <TextView
+            android:id="@+id/poster_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/profile"
+            android:layout_toRightOf="@+id/profile"
+            android:layout_marginLeft="16dp"
+            android:text="肥龍"
+            android:textSize="17sp"
+            android:layout_marginStart="16dp" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2018/10/3"
+            android:textColor="@color/gray"
+            android:textSize="14sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="8dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="8dp" />
+
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+    android:id="@+id/mid"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/top_list">
+
+    <ImageView
+        android:id="@+id/post_cover"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/demo_post_pic8" />
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/heart"
+        android:layout_gravity="right"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp" />
+
+    </FrameLayout>
+
+    <RelativeLayout
+    android:id="@+id/place"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/mid"
+    android:layout_marginTop="16dp">
+
+    <ImageView
+        android:id="@+id/loc_icon"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/location_point"
+        android:scaleType="centerCrop" />
+
+
+    <TextView
+        android:id="@+id/journal_place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="法國/巴黎"
+        android:textColor="@color/gray"
+        android:textSize="17sp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/loc_icon"
+        android:layout_marginLeft="8dp"
+        android:layout_toEndOf="@+id/loc_icon"
+        android:layout_marginStart="8dp" />
+
+
+
+
+
+
+    </RelativeLayout>
+
+    <ScrollView
+    android:id="@+id/post_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/place">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="台灣有直飛戴高樂機場需14hr,但是機票難搶，所以你們若要規劃巴黎旅遊的話，需要提前規劃，機票難求
+" />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="這次住的住宿爲Booking.com 的五星推薦，但需要口袋深才能住，因為真的太貴啦，但是值得，可以看到巴黎的夜晚真的很值得，與台北的夜晚是不一樣的，且有附早餐，非常道地人口味，推推
+" />
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="
+再來就是推巴黎鐵塔晚餐，也是需要口袋身的人才能去吃，但是若有機會拜託去吃，氣氛佳，且他們的法國紅酒超讚，沒喝過那麼甘醇的紅酒，另外他們的牛排建議吃三分熟，超讚，再搭配紅酒潤喉，此身無遺憾XD
+
+還有春天百貨，帶有濃濃的法國風，雖然說小弟買不起裡的精品，但是也很值得等推薦大家去逛逛。
+"/>
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="
+
+最後，若不熟悉法國的大眾運輸，推薦搭uber雖然說跟公車比貴了點，但是快速方便，且有不定期的優惠可以使用
+
+若你們大家有機會的話，巴黎真的是不錯自助旅行的城市啦，唯一小心小偷，他們真的蠻會偷的啦，要注意一下呦！
+"/>
+
+    </LinearLayout>
+    </ScrollView>
+
+    <Button
+    android:id="@+id/Toschedule1"
+    android:layout_width="100dp"
+    android:layout_height="32dp"
+    android:layout_below="@+id/post_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginBottom="16dp"
+    android:background="@drawable/post_schedule_style"
+    android:gravity="center"
+    android:padding="5dp"
+    android:text="行程表1"
+    android:textColor="@color/colorPrimaryDark" />
+
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/header_view">
+
+        <!--文字部分-->
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_below="@+id/start"
+            android:gravity="center_vertical"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/destination"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="旅行者屬性"
+                android:textSize="17sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_below="@+id/start"
+                android:gravity="center_vertical"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                android:id="@+id/trans_type2"
+                android:layout_width="70dp"
+                android:layout_height="28dp"
+                android:background="@drawable/label_type_backpacker"
+                android:layout_centerVertical="true"
+/>
+
+                <ImageView
+                    android:id="@+id/trans_type3"
+                    android:layout_width="70dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/label_traveler_bigappetite"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"/>
+
+                <ImageView
+                    android:id="@+id/trans_type1"
+                    android:layout_width="70dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/label_traveler_goodphoto"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"/>
+
+
+
+
+            </LinearLayout>
+
+
+         </LinearLayout>
+</LinearLayout>
+
+

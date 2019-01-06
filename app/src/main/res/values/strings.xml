@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Practice</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_post">Post</string>
+    <string name="nav_phome">Home</string>
+    <string name="nav_chat">Chat</string>
+    <string name="nav_schedule">Schedule</string>
+    <string name="cover">cover</string>
+    <string name="notice">Notice</string>
+
+
+
+
+
+    <string name="login_e">email</string>
+    <string name="login_pwd">password</string>
+    <string name="login_pwd2">re:password</string>
+
+    <string name="logo">logo</string>
+    <string name="signin">sign in</string>
+    <string name="login_btn">login_btn</string>
+    <string name="phome_name">印度阿三</string>
+    <string name="todo">TODO</string>
+    <string name="fingerbird">FingerBird</string>
+    <string name="or_use">or use</string>
+    <string name="send">send</string>
+
+    <string name="name">name</string>
+    <string name="phone">num</string>
+    <string name="signup">sign up</string>
+    <string name="send2">send2</string>
+    <string name="sign_in">sign in</string>
+    <string name="already_have_an_account">already have an account?</string>
+    <string name="chatroom">聊天室</string>
+    <string name="chatbox">有什麼問題要問版主嗎?</string>
+    <string name="send_chat">Send</string>
+    <string name="img">img</string>
+    <string name="searchbar">TODO</string>
+    <string name="test_txt">55555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555555</string>
+
+
+
+
+
+    <string name="count_initial_value">0</string>
+    <string name="button_label">Send</string>
+    <string name="toast_message">Hurra!</string>
+    <string name="input_placeholder">Write a message</string>
+</resources>

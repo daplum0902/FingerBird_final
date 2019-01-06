@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "132542039748",
+    "firebase_url": "https://logindalphfingerbird.firebaseio.com",
+    "project_id": "logindalphfingerbird",
+    "storage_bucket": "logindalphfingerbird.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132542039748:android:b7f2075a5b489fbc",
+        "android_client_info": {
+          "package_name": "com.example.daplu.practice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132542039748-dsh17ed0ds2p3o0008l30hiviql15u95.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.daplu.practice",
+            "certificate_hash": "4c8f3cae448e627a445c62966299e5e7344f1611"
+          }
+        },
+        {
+          "client_id": "132542039748-a860rqo311duc7mdjo4jpr0k4nrod2a1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBD7EYsUcBgYC2SPN6kNG9P1wgTLf-BqT8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132542039748-a860rqo311duc7mdjo4jpr0k4nrod2a1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

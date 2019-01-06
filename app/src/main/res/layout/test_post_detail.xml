@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:onClick="BackPost"
+            android:id="@+id/back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="334dp"
+            android:layout_marginRight="334dp"
+            android:layout_marginBottom="517dp"
+            android:background="@drawable/ic_navigate_before_black_24dp" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="法國誰要和我一起浪漫一波"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout3">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <fragment
+                android:id="@+id/top_content"
+                android:name="com.example.daplu.practice.testPostDetailUpFragment"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="8dp" />
+            <!--<fragment-->
+            <!--android:id="@+id/down_content"-->
+            <!--android:name="com.example.daplu.practice.testPostDetailBottomFragment"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="8dp" />-->
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

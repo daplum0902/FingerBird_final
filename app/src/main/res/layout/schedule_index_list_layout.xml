@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/sc_icon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="24dp"/>
+
+    <TextView
+        android:id="@+id/sc_content"
+        android:background="@color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/sc_icon"
+        android:layout_centerVertical="true"
+        android:text="台南一日遊"
+        android:textColor="@color/gray"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/sc_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="11/11"
+        android:textColor="@color/gray"
+        android:textSize="18sp"
+        android:layout_marginRight="16dp"/>
+
+</RelativeLayout>

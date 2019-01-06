@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/test_cover" />
+
+    <TextView
+        android:id="@+id/ms_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="阿三"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:textSize="17sp"/>
+
+    <TextView
+        android:id="@+id/ms_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/message_style"
+        android:paddingLeft="20dp"
+        android:paddingTop="6dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="6dp"
+        android:text="我可以帶貓過去嗎"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

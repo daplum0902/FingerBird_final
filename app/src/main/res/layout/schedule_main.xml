@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!--title-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/Backschedule"
+            android:onClick="Backschedule"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="left"
+            android:background="@drawable/ic_navigate_before_black_24dp" />
+
+
+        <TextView
+            android:id="@+id/post_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_weight="0.7"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:text="法國高空體驗之旅la"
+            android:textColor="@color/gray"
+            android:textSize="18sp" />
+
+    </FrameLayout>
+
+
+
+    <TextView
+        android:id="@+id/choose_day"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/schedule_choose_day_style"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="第一天"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <ListView
+        android:id="@+id/schedule_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/colorWhite"
+        android:listSelector="@color/colorWhite"
+        android:overScrollMode="never"/>
+
+</LinearLayout>
