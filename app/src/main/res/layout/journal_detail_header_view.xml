@@ -14,7 +14,7 @@
         android:layout_below="@+id/journal_detail_title">
 
         <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/profile"
+            android:id="@+id/add"
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_centerVertical="true"
@@ -27,8 +27,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_toEndOf="@+id/profile"
-            android:layout_toRightOf="@+id/profile"
+            android:layout_toEndOf="@+id/add"
+            android:layout_toRightOf="@+id/add"
             android:layout_marginLeft="16dp"
             android:text="肥龍"
             android:textSize="17sp"

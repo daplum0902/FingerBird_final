@@ -12,7 +12,7 @@ public class PhomeJournalFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        //個人小屋遊記
         View view = View.inflate(getActivity(), R.layout.aaa_phome_journal, null);
 
         return  view;

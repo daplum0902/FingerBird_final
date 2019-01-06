@@ -20,6 +20,8 @@ public class testPostDetailUpFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //徵伴貼文內文
         View view = inflater.inflate(R.layout.test_post_detail_up, container, false);
 //        name = view.findViewById(R.id.name);
 //        prf = getActivity().getSharedPreferences("user_details",Context.MODE_PRIVATE);
@@ -30,7 +32,7 @@ public class testPostDetailUpFragment extends Fragment {
 //        }
 
         ToSchedule = view.findViewById(R.id.Schedule1);
-        profile = view.findViewById(R.id.profile);
+        profile = view.findViewById(R.id.add);
         travelend = view.findViewById(R.id.travelend);
 
         profile.setOnClickListener(new View.OnClickListener() {

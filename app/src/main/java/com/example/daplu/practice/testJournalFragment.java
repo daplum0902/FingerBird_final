@@ -42,7 +42,7 @@ public class testJournalFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
+        //遊記總攬列表
         View view = View.inflate(getActivity(), R.layout.test_journal_fragment, null);
         ListView listView = (ListView) view.findViewById(R.id.post_j_list);
 
@@ -64,7 +64,7 @@ public class testJournalFragment extends Fragment {
         String[] from = {"poster_name", "journal_title", "journal_place", "post_cover", "profile" };
 
         // Ids of views in listview_layout
-        int[] to = { R.id.poster_name, R.id.journal_title, R.id.journal_place, R.id.post_cover, R.id.profile};
+        int[] to = { R.id.poster_name, R.id.journal_title, R.id.journal_place, R.id.post_cover, R.id.add};
 
         SimpleAdapter adapter = new SimpleAdapter(getActivity(), items, R.layout.test_journal_list_style, from, to);
         listView.setAdapter(adapter);

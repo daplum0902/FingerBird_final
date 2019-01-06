@@ -63,6 +63,7 @@ public class NotifyListFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
+        //通知總攬
         View view = View.inflate(getActivity(), R.layout.notify, null);
 
         // Keys used in Hashmap

@@ -44,6 +44,7 @@
             android:layout_below="@+id/start"
             android:gravity="center_vertical">
 
+            <!--交通-->
             <ImageView
                 android:layout_width="35dp"
                 android:layout_height="35dp"

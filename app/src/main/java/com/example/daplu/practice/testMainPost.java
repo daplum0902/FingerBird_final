@@ -54,6 +54,8 @@ public class testMainPost extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //徵伴貼文
         View view = inflater.inflate(R.layout.test_post_index, container, false);
 
         btn_journal = view.findViewById(R.id.btn_journal);

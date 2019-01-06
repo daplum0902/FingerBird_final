@@ -34,9 +34,11 @@ public class PhomeProfileList extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
+        //個人小屋個人資料
         View view = View.inflate(getActivity(), R.layout.phome_profile_fragment, null);
         ListView listView = (ListView) view.findViewById(R.id.listView);
 
+        //以LISTVIEW表頭包旅行者屬性(圖像式)
         View header_view = getLayoutInflater().inflate(R.layout.phome_profile_header, null);
 
         listView.addHeaderView(header_view);

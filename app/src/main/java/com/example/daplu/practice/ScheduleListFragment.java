@@ -47,10 +47,13 @@ public class ScheduleListFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
+        //行程表
         View view = View.inflate(getActivity(), R.layout.schedule_main, null);
         ListView listView = (ListView) view.findViewById(R.id.schedule_list);
 
+        //以LISTVIEW表頭包啟程
         View header_view = getLayoutInflater().inflate(R.layout.schedule_header_view, null);
+        //以LISTVIEW表尾包終點
         View footer_view = getLayoutInflater().inflate(R.layout.schedule_footer_view, null);
 
         listView.addHeaderView(header_view);

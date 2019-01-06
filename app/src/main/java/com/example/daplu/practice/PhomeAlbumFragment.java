@@ -12,7 +12,7 @@ public class PhomeAlbumFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        //個人小屋相簿
         View view = View.inflate(getActivity(), R.layout.aaa_phome_album, null);
 
         return  view;

@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <!--行程表-->
     <fragment
         android:id="@+id/bottom_content"
         android:layout_width="match_parent"

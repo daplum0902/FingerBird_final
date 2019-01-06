@@ -38,10 +38,11 @@ public class testPostDetailBottomFragment extends Fragment {
                              Bundle savedInstanceState) {
 
 
-
+        //留言
         View view = View.inflate(getActivity(), R.layout.test_post_detail_down, null);
         ListView listView = (ListView) view.findViewById(R.id.message_list);
 
+        //以LISTVIEW表尾包文字輸入框
         View footer_view = getLayoutInflater().inflate(R.layout.post_detail_footer_view, null);
 
         listView.addFooterView(footer_view);
@@ -61,7 +62,7 @@ public class testPostDetailBottomFragment extends Fragment {
         String[] from = {"ms_name", "ms_content", "profile" };
 
         // Ids of views in listview_layout
-        int[] to = { R.id.ms_name, R.id.ms_content, R.id.profile};
+        int[] to = { R.id.ms_name, R.id.ms_content, R.id.add};
 
         SimpleAdapter adapter = new SimpleAdapter(getActivity(), items, R.layout.message_list_layout, from, to);
 

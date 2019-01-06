@@ -8,6 +8,8 @@ public class schedulelist extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //行程表頁面
         setContentView(R.layout.schedulelist);
 
     }

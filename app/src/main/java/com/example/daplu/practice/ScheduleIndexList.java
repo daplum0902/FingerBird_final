@@ -70,6 +70,7 @@ public class ScheduleIndexList extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
+        //行程表總攬列表
         View view = View.inflate(getActivity(), R.layout.schedule_index, null);
 
         //將資料轉換成<key,value>的型態

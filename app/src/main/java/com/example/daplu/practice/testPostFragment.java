@@ -66,7 +66,7 @@ public class testPostFragment extends Fragment {
         String[] from = {"title", "place", "date", "goDetail", "profile" };
 
         // Ids of views in listview_layout
-        int[] to = { R.id.title, R.id.place, R.id.date, R.id.goDetail, R.id.profile};
+        int[] to = { R.id.title, R.id.place, R.id.date, R.id.goDetail, R.id.add};
 
 
         SimpleAdapter adapter = new SimpleAdapter(getActivity(), items, R.layout.test_post_list_style, from, to);

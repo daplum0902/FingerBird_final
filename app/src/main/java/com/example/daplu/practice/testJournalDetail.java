@@ -11,6 +11,8 @@ public class testJournalDetail extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        //遊記
         setContentView(R.layout.test_journal_detail);
         ToSchedule = findViewById(R.id.Toschedule1);
         ToSchedule.setOnClickListener(new View.OnClickListener() {

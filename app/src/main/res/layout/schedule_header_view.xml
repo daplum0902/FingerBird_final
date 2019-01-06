@@ -56,7 +56,7 @@
             android:orientation="horizontal"
             android:layout_below="@+id/start"
             android:gravity="center_vertical">
-
+            <!--交通-->
             <ImageView
                 android:id="@+id/trans_type"
                 android:layout_width="35dp"
